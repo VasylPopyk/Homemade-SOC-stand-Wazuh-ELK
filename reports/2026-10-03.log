@@ -1,0 +1,500 @@
+win.system.opcode: 0
+win.system.keywords: 0x8020000000000000
+win.system.systemTime: 2026-09-24T10:45:21.5242266Z
+win.system.eventRecordID: 10295
+win.system.processID: 748
+win.system.threadID: 812
+win.system.channel: Security
+win.system.computer: WIN-68MNT0FEABB.learn.lab
+win.system.severityValue: AUDIT_SUCCESS
+win.system.message: "An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-68MNT0FEABB$
+	Account Domain:		LEARN
+	Logon ID:		0x299D60F
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer."
+win.eventdata.targetUserSid: S-1-5-18
+win.eventdata.targetUserName: WIN-68MNT0FEABB$
+win.eventdata.targetDomainName: LEARN
+win.eventdata.targetLogonId: 0x299d60f
+win.eventdata.logonType: 3
+
+** Alert 1791054798.1912258: - windows,windows_security,pci_dss_10.2.5,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Oct 03 19:13:18 (WIndows) any->EventChannel
+Rule: 60137 (level 3) -> 'Windows User Logoff'
+{"win":{"system":{"providerName":"Microsoft-Windows-Security-Auditing","providerGuid":"{54849625-5478-4994-a5ba-3e3b0328c30d}","eventID":"4634","version":"0","level":"0","task":"12545","opcode":"0","keywords":"0x8020000000000000","systemTime":"2026-09-24T10:45:29.8836712Z","eventRecordID":"10296","processID":"748","threadID":"7188","channel":"Security","computer":"WIN-68MNT0FEABB.learn.lab","severityValue":"AUDIT_SUCCESS","message":"\"An account was logged off.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWIN-68MNT0FEABB$\r\n\tAccount Domain:\t\tLEARN\r\n\tLogon ID:\t\t0x299AE80\r\n\r\nLogon Type:\t\t\t3\r\n\r\nThis event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.\""},"eventdata":{"targetUserSid":"S-1-5-18","targetUserName":"WIN-68MNT0FEABB$","targetDomainName":"LEARN","targetLogonId":"0x299ae80","logonType":"3"}}}
+win.system.providerName: Microsoft-Windows-Security-Auditing
+win.system.providerGuid: {54849625-5478-4994-a5ba-3e3b0328c30d}
+win.system.eventID: 4634
+win.system.version: 0
+win.system.level: 0
+win.system.task: 12545
+win.system.opcode: 0
+win.system.keywords: 0x8020000000000000
+win.system.systemTime: 2026-09-24T10:45:29.8836712Z
+win.system.eventRecordID: 10296
+win.system.processID: 748
+win.system.threadID: 7188
+win.system.channel: Security
+win.system.computer: WIN-68MNT0FEABB.learn.lab
+win.system.severityValue: AUDIT_SUCCESS
+win.system.message: "An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-68MNT0FEABB$
+	Account Domain:		LEARN
+	Logon ID:		0x299AE80
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer."
+win.eventdata.targetUserSid: S-1-5-18
+win.eventdata.targetUserName: WIN-68MNT0FEABB$
+win.eventdata.targetDomainName: LEARN
+win.eventdata.targetLogonId: 0x299ae80
+win.eventdata.logonType: 3
+
+** Alert 1791054803.1914624: - windows,windows_security,pci_dss_10.2.5,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Oct 03 19:13:23 (WIndows) any->EventChannel
+Rule: 60137 (level 3) -> 'Windows User Logoff'
+{"win":{"system":{"providerName":"Microsoft-Windows-Security-Auditing","providerGuid":"{54849625-5478-4994-a5ba-3e3b0328c30d}","eventID":"4634","version":"0","level":"0","task":"12545","opcode":"0","keywords":"0x8020000000000000","systemTime":"2026-09-24T10:45:35.2419521Z","eventRecordID":"10297","processID":"748","threadID":"1012","channel":"Security","computer":"WIN-68MNT0FEABB.learn.lab","severityValue":"AUDIT_SUCCESS","message":"\"An account was logged off.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWIN-68MNT0FEABB$\r\n\tAccount Domain:\t\tLEARN\r\n\tLogon ID:\t\t0x299C1DC\r\n\r\nLogon Type:\t\t\t3\r\n\r\nThis event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.\""},"eventdata":{"targetUserSid":"S-1-5-18","targetUserName":"WIN-68MNT0FEABB$","targetDomainName":"LEARN","targetLogonId":"0x299c1dc","logonType":"3"}}}
+win.system.providerName: Microsoft-Windows-Security-Auditing
+win.system.providerGuid: {54849625-5478-4994-a5ba-3e3b0328c30d}
+win.system.eventID: 4634
+win.system.version: 0
+win.system.level: 0
+win.system.task: 12545
+win.system.opcode: 0
+win.system.keywords: 0x8020000000000000
+win.system.systemTime: 2026-09-24T10:45:35.2419521Z
+win.system.eventRecordID: 10297
+win.system.processID: 748
+win.system.threadID: 1012
+win.system.channel: Security
+win.system.computer: WIN-68MNT0FEABB.learn.lab
+win.system.severityValue: AUDIT_SUCCESS
+win.system.message: "An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-68MNT0FEABB$
+	Account Domain:		LEARN
+	Logon ID:		0x299C1DC
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer."
+win.eventdata.targetUserSid: S-1-5-18
+win.eventdata.targetUserName: WIN-68MNT0FEABB$
+win.eventdata.targetDomainName: LEARN
+win.eventdata.targetLogonId: 0x299c1dc
+win.eventdata.logonType: 3
+
+** Alert 1791054820.1916990: - windows,windows_security,authentication_success,pci_dss_10.2.5,gpg13_7.1,gpg13_7.2,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.9,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Oct 03 19:13:40 (WIndows) any->EventChannel
+Rule: 60106 (level 3) -> 'Windows Logon Success'
+{"win":{"system":{"providerName":"Microsoft-Windows-Security-Auditing","providerGuid":"{54849625-5478-4994-a5ba-3e3b0328c30d}","eventID":"4624","version":"3","level":"0","task":"12544","opcode":"0","keywords":"0x8020000000000000","systemTime":"2026-09-24T10:45:51.9625998Z","eventRecordID":"10299","processID":"748","threadID":"3168","channel":"Security","computer":"WIN-68MNT0FEABB.learn.lab","severityValue":"AUDIT_SUCCESS","message":"\"An account was successfully logged on.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nLogon Information:\r\n\tLogon Type:\t\t3\r\n\tRestricted Admin Mode:\t-\r\n\tRemote Credential Guard:\t-\r\n\tVirtual Account:\t\tNo\r\n\tElevated Token:\t\tYes\r\n\r\nImpersonation Level:\t\tImpersonation\r\n\r\nNew Logon:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWIN-68MNT0FEABB$\r\n\tAccount Domain:\t\tLEARN.LAB\r\n\tLogon ID:\t\t0x29B576E\r\n\tLinked Logon ID:\t\t0x0\r\n\tNetwork Account Name:\t-\r\n\tNetwork Account Domain:\t-\r\n\tLogon GUID:\t\t{44f9a996-a633-1a9f-9864-2c796e05d9aa}\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x0\r\n\tProcess Name:\t\t-\r\n\r\nNetwork Information:\r\n\tWorkstation Name:\t-\r\n\tSource Network Address:\t::1\r\n\tSource Port:\t\t57120\r\n\r\nDetailed Authentication Information:\r\n\tLogon Process:\t\tKerberos\r\n\tAuthentication Package:\tKerberos\r\n\tTransited Services:\t-\r\n\tPackage Name (NTLM only):\t-\r\n\tKey Length:\t\t0\r\n\r\nThis event is generated when a logon session is created. It is generated on the computer that was accessed.\r\n\r\nThe subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\r\n\r\nThe logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).\r\n\r\nThe New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.\r\n\r\nThe network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\r\n\r\nThe impersonation level field indicates the extent to which a process in the logon session can impersonate.\r\n\r\nThe authentication information fields provide detailed information about this specific logon request.\r\n\t- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.\r\n\t- Transited services indicate which intermediate services have participated in this logon request.\r\n\t- Package name indicates which sub-protocol was used among the NTLM protocols.\r\n\t- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.\""},"eventdata":{"subjectUserSid":"S-1-0-0","subjectLogonId":"0x0","targetUserSid":"S-1-5-18","targetUserName":"WIN-68MNT0FEABB$","targetDomainName":"LEARN.LAB","targetLogonId":"0x29b576e","logonType":"3","logonProcessName":"Kerberos","authenticationPackageName":"Kerberos","logonGuid":"{44f9a996-a633-1a9f-9864-2c796e05d9aa}","keyLength":"0","processId":"0x0","ipAddress":"::1","ipPort":"57120","impersonationLevel":"%%1833","virtualAccount":"%%1843","targetLinkedLogonId":"0x0","elevatedToken":"%%1842"}}}
+win.system.providerName: Microsoft-Windows-Security-Auditing
+win.system.providerGuid: {54849625-5478-4994-a5ba-3e3b0328c30d}
+win.system.eventID: 4624
+win.system.version: 3
+win.system.level: 0
+win.system.task: 12544
+win.system.opcode: 0
+win.system.keywords: 0x8020000000000000
+win.system.systemTime: 2026-09-24T10:45:51.9625998Z
+win.system.eventRecordID: 10299
+win.system.processID: 748
+win.system.threadID: 3168
+win.system.channel: Security
+win.system.computer: WIN-68MNT0FEABB.learn.lab
+win.system.severityValue: AUDIT_SUCCESS
+win.system.message: "An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-68MNT0FEABB$
+	Account Domain:		LEARN.LAB
+	Logon ID:		0x29B576E
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{44f9a996-a633-1a9f-9864-2c796e05d9aa}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		57120
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+win.eventdata.subjectUserSid: S-1-0-0
+win.eventdata.subjectLogonId: 0x0
+win.eventdata.targetUserSid: S-1-5-18
+win.eventdata.targetUserName: WIN-68MNT0FEABB$
+win.eventdata.targetDomainName: LEARN.LAB
+win.eventdata.targetLogonId: 0x29b576e
+win.eventdata.logonType: 3
+win.eventdata.logonProcessName: Kerberos
+win.eventdata.authenticationPackageName: Kerberos
+win.eventdata.logonGuid: {44f9a996-a633-1a9f-9864-2c796e05d9aa}
+win.eventdata.keyLength: 0
+win.eventdata.processId: 0x0
+win.eventdata.ipAddress: ::1
+win.eventdata.ipPort: 57120
+win.eventdata.impersonationLevel: %%1833
+win.eventdata.virtualAccount: %%1843
+win.eventdata.targetLinkedLogonId: 0x0
+win.eventdata.elevatedToken: %%1842
+
+** Alert 1791054820.1924123: - windows,windows_security,pci_dss_10.2.5,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Oct 03 19:13:40 (WIndows) any->EventChannel
+Rule: 60137 (level 3) -> 'Windows User Logoff'
+{"win":{"system":{"providerName":"Microsoft-Windows-Security-Auditing","providerGuid":"{54849625-5478-4994-a5ba-3e3b0328c30d}","eventID":"4634","version":"0","level":"0","task":"12545","opcode":"0","keywords":"0x8020000000000000","systemTime":"2026-09-24T10:45:51.9640770Z","eventRecordID":"10300","processID":"748","threadID":"7188","channel":"Security","computer":"WIN-68MNT0FEABB.learn.lab","severityValue":"AUDIT_SUCCESS","message":"\"An account was logged off.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWIN-68MNT0FEABB$\r\n\tAccount Domain:\t\tLEARN\r\n\tLogon ID:\t\t0x29B576E\r\n\r\nLogon Type:\t\t\t3\r\n\r\nThis event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.\""},"eventdata":{"targetUserSid":"S-1-5-18","targetUserName":"WIN-68MNT0FEABB$","targetDomainName":"LEARN","targetLogonId":"0x29b576e","logonType":"3"}}}
+win.system.providerName: Microsoft-Windows-Security-Auditing
+win.system.providerGuid: {54849625-5478-4994-a5ba-3e3b0328c30d}
+win.system.eventID: 4634
+win.system.version: 0
+win.system.level: 0
+win.system.task: 12545
+win.system.opcode: 0
+win.system.keywords: 0x8020000000000000
+win.system.systemTime: 2026-09-24T10:45:51.9640770Z
+win.system.eventRecordID: 10300
+win.system.processID: 748
+win.system.threadID: 7188
+win.system.channel: Security
+win.system.computer: WIN-68MNT0FEABB.learn.lab
+win.system.severityValue: AUDIT_SUCCESS
+win.system.message: "An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-68MNT0FEABB$
+	Account Domain:		LEARN
+	Logon ID:		0x29B576E
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer."
+win.eventdata.targetUserSid: S-1-5-18
+win.eventdata.targetUserName: WIN-68MNT0FEABB$
+win.eventdata.targetDomainName: LEARN
+win.eventdata.targetLogonId: 0x29b576e
+win.eventdata.logonType: 3
+
+** Alert 1791054880.1926489: - windows,windows_security,authentication_success,pci_dss_10.2.5,gpg13_7.1,gpg13_7.2,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.9,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Oct 03 19:14:40 (WIndows) any->EventChannel
+Rule: 60106 (level 3) -> 'Windows Logon Success'
+{"win":{"system":{"providerName":"Microsoft-Windows-Security-Auditing","providerGuid":"{54849625-5478-4994-a5ba-3e3b0328c30d}","eventID":"4624","version":"3","level":"0","task":"12544","opcode":"0","keywords":"0x8020000000000000","systemTime":"2026-09-24T10:46:51.9883616Z","eventRecordID":"10302","processID":"748","threadID":"7100","channel":"Security","computer":"WIN-68MNT0FEABB.learn.lab","severityValue":"AUDIT_SUCCESS","message":"\"An account was successfully logged on.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nLogon Information:\r\n\tLogon Type:\t\t3\r\n\tRestricted Admin Mode:\t-\r\n\tRemote Credential Guard:\t-\r\n\tVirtual Account:\t\tNo\r\n\tElevated Token:\t\tYes\r\n\r\nImpersonation Level:\t\tImpersonation\r\n\r\nNew Logon:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWIN-68MNT0FEABB$\r\n\tAccount Domain:\t\tLEARN.LAB\r\n\tLogon ID:\t\t0x29E2FA7\r\n\tLinked Logon ID:\t\t0x0\r\n\tNetwork Account Name:\t-\r\n\tNetwork Account Domain:\t-\r\n\tLogon GUID:\t\t{44f9a996-a633-1a9f-9864-2c796e05d9aa}\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x0\r\n\tProcess Name:\t\t-\r\n\r\nNetwork Information:\r\n\tWorkstation Name:\t-\r\n\tSource Network Address:\t::1\r\n\tSource Port:\t\t57344\r\n\r\nDetailed Authentication Information:\r\n\tLogon Process:\t\tKerberos\r\n\tAuthentication Package:\tKerberos\r\n\tTransited Services:\t-\r\n\tPackage Name (NTLM only):\t-\r\n\tKey Length:\t\t0\r\n\r\nThis event is generated when a logon session is created. It is generated on the computer that was accessed.\r\n\r\nThe subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\r\n\r\nThe logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).\r\n\r\nThe New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.\r\n\r\nThe network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\r\n\r\nThe impersonation level field indicates the extent to which a process in the logon session can impersonate.\r\n\r\nThe authentication information fields provide detailed information about this specific logon request.\r\n\t- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.\r\n\t- Transited services indicate which intermediate services have participated in this logon request.\r\n\t- Package name indicates which sub-protocol was used among the NTLM protocols.\r\n\t- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.\""},"eventdata":{"subjectUserSid":"S-1-0-0","subjectLogonId":"0x0","targetUserSid":"S-1-5-18","targetUserName":"WIN-68MNT0FEABB$","targetDomainName":"LEARN.LAB","targetLogonId":"0x29e2fa7","logonType":"3","logonProcessName":"Kerberos","authenticationPackageName":"Kerberos","logonGuid":"{44f9a996-a633-1a9f-9864-2c796e05d9aa}","keyLength":"0","processId":"0x0","ipAddress":"::1","ipPort":"57344","impersonationLevel":"%%1833","virtualAccount":"%%1843","targetLinkedLogonId":"0x0","elevatedToken":"%%1842"}}}
+win.system.providerName: Microsoft-Windows-Security-Auditing
+win.system.providerGuid: {54849625-5478-4994-a5ba-3e3b0328c30d}
+win.system.eventID: 4624
+win.system.version: 3
+win.system.level: 0
+win.system.task: 12544
+win.system.opcode: 0
+win.system.keywords: 0x8020000000000000
+win.system.systemTime: 2026-09-24T10:46:51.9883616Z
+win.system.eventRecordID: 10302
+win.system.processID: 748
+win.system.threadID: 7100
+win.system.channel: Security
+win.system.computer: WIN-68MNT0FEABB.learn.lab
+win.system.severityValue: AUDIT_SUCCESS
+win.system.message: "An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-68MNT0FEABB$
+	Account Domain:		LEARN.LAB
+	Logon ID:		0x29E2FA7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{44f9a996-a633-1a9f-9864-2c796e05d9aa}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		57344
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+win.eventdata.subjectUserSid: S-1-0-0
+win.eventdata.subjectLogonId: 0x0
+win.eventdata.targetUserSid: S-1-5-18
+win.eventdata.targetUserName: WIN-68MNT0FEABB$
+win.eventdata.targetDomainName: LEARN.LAB
+win.eventdata.targetLogonId: 0x29e2fa7
+win.eventdata.logonType: 3
+win.eventdata.logonProcessName: Kerberos
+win.eventdata.authenticationPackageName: Kerberos
+win.eventdata.logonGuid: {44f9a996-a633-1a9f-9864-2c796e05d9aa}
+win.eventdata.keyLength: 0
+win.eventdata.processId: 0x0
+win.eventdata.ipAddress: ::1
+win.eventdata.ipPort: 57344
+win.eventdata.impersonationLevel: %%1833
+win.eventdata.virtualAccount: %%1843
+win.eventdata.targetLinkedLogonId: 0x0
+win.eventdata.elevatedToken: %%1842
+
+** Alert 1791054880.1933622: - windows,windows_security,pci_dss_10.2.5,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Oct 03 19:14:40 (WIndows) any->EventChannel
+Rule: 60137 (level 3) -> 'Windows User Logoff'
+{"win":{"system":{"providerName":"Microsoft-Windows-Security-Auditing","providerGuid":"{54849625-5478-4994-a5ba-3e3b0328c30d}","eventID":"4634","version":"0","level":"0","task":"12545","opcode":"0","keywords":"0x8020000000000000","systemTime":"2026-09-24T10:46:51.9899754Z","eventRecordID":"10303","processID":"748","threadID":"7188","channel":"Security","computer":"WIN-68MNT0FEABB.learn.lab","severityValue":"AUDIT_SUCCESS","message":"\"An account was logged off.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWIN-68MNT0FEABB$\r\n\tAccount Domain:\t\tLEARN\r\n\tLogon ID:\t\t0x29E2FA7\r\n\r\nLogon Type:\t\t\t3\r\n\r\nThis event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.\""},"eventdata":{"targetUserSid":"S-1-5-18","targetUserName":"WIN-68MNT0FEABB$","targetDomainName":"LEARN","targetLogonId":"0x29e2fa7","logonType":"3"}}}
+win.system.providerName: Microsoft-Windows-Security-Auditing
+win.system.providerGuid: {54849625-5478-4994-a5ba-3e3b0328c30d}
+win.system.eventID: 4634
+win.system.version: 0
+win.system.level: 0
+win.system.task: 12545
+win.system.opcode: 0
+win.system.keywords: 0x8020000000000000
+win.system.systemTime: 2026-09-24T10:46:51.9899754Z
+win.system.eventRecordID: 10303
+win.system.processID: 748
+win.system.threadID: 7188
+win.system.channel: Security
+win.system.computer: WIN-68MNT0FEABB.learn.lab
+win.system.severityValue: AUDIT_SUCCESS
+win.system.message: "An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-68MNT0FEABB$
+	Account Domain:		LEARN
+	Logon ID:		0x29E2FA7
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer."
+win.eventdata.targetUserSid: S-1-5-18
+win.eventdata.targetUserName: WIN-68MNT0FEABB$
+win.eventdata.targetDomainName: LEARN
+win.eventdata.targetLogonId: 0x29e2fa7
+win.eventdata.logonType: 3
+
+** Alert 1791054940.1935988: - windows,windows_security,authentication_success,pci_dss_10.2.5,gpg13_7.1,gpg13_7.2,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.9,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Oct 03 19:15:40 (WIndows) any->EventChannel
+Rule: 60106 (level 3) -> 'Windows Logon Success'
+{"win":{"system":{"providerName":"Microsoft-Windows-Security-Auditing","providerGuid":"{54849625-5478-4994-a5ba-3e3b0328c30d}","eventID":"4624","version":"3","level":"0","task":"12544","opcode":"0","keywords":"0x8020000000000000","systemTime":"2026-09-24T10:47:52.0075329Z","eventRecordID":"10305","processID":"748","threadID":"3168","channel":"Security","computer":"WIN-68MNT0FEABB.learn.lab","severityValue":"AUDIT_SUCCESS","message":"\"An account was successfully logged on.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nLogon Information:\r\n\tLogon Type:\t\t3\r\n\tRestricted Admin Mode:\t-\r\n\tRemote Credential Guard:\t-\r\n\tVirtual Account:\t\tNo\r\n\tElevated Token:\t\tYes\r\n\r\nImpersonation Level:\t\tImpersonation\r\n\r\nNew Logon:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWIN-68MNT0FEABB$\r\n\tAccount Domain:\t\tLEARN.LAB\r\n\tLogon ID:\t\t0x2A16E8F\r\n\tLinked Logon ID:\t\t0x0\r\n\tNetwork Account Name:\t-\r\n\tNetwork Account Domain:\t-\r\n\tLogon GUID:\t\t{44f9a996-a633-1a9f-9864-2c796e05d9aa}\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x0\r\n\tProcess Name:\t\t-\r\n\r\nNetwork Information:\r\n\tWorkstation Name:\t-\r\n\tSource Network Address:\t::1\r\n\tSource Port:\t\t57598\r\n\r\nDetailed Authentication Information:\r\n\tLogon Process:\t\tKerberos\r\n\tAuthentication Package:\tKerberos\r\n\tTransited Services:\t-\r\n\tPackage Name (NTLM only):\t-\r\n\tKey Length:\t\t0\r\n\r\nThis event is generated when a logon session is created. It is generated on the computer that was accessed.\r\n\r\nThe subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\r\n\r\nThe logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).\r\n\r\nThe New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.\r\n\r\nThe network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\r\n\r\nThe impersonation level field indicates the extent to which a process in the logon session can impersonate.\r\n\r\nThe authentication information fields provide detailed information about this specific logon request.\r\n\t- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.\r\n\t- Transited services indicate which intermediate services have participated in this logon request.\r\n\t- Package name indicates which sub-protocol was used among the NTLM protocols.\r\n\t- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.\""},"eventdata":{"subjectUserSid":"S-1-0-0","subjectLogonId":"0x0","targetUserSid":"S-1-5-18","targetUserName":"WIN-68MNT0FEABB$","targetDomainName":"LEARN.LAB","targetLogonId":"0x2a16e8f","logonType":"3","logonProcessName":"Kerberos","authenticationPackageName":"Kerberos","logonGuid":"{44f9a996-a633-1a9f-9864-2c796e05d9aa}","keyLength":"0","processId":"0x0","ipAddress":"::1","ipPort":"57598","impersonationLevel":"%%1833","virtualAccount":"%%1843","targetLinkedLogonId":"0x0","elevatedToken":"%%1842"}}}
+win.system.providerName: Microsoft-Windows-Security-Auditing
+win.system.providerGuid: {54849625-5478-4994-a5ba-3e3b0328c30d}
+win.system.eventID: 4624
+win.system.version: 3
+win.system.level: 0
+win.system.task: 12544
+win.system.opcode: 0
+win.system.keywords: 0x8020000000000000
+win.system.systemTime: 2026-09-24T10:47:52.0075329Z
+win.system.eventRecordID: 10305
+win.system.processID: 748
+win.system.threadID: 3168
+win.system.channel: Security
+win.system.computer: WIN-68MNT0FEABB.learn.lab
+win.system.severityValue: AUDIT_SUCCESS
+win.system.message: "An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Remote Credential Guard:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-68MNT0FEABB$
+	Account Domain:		LEARN.LAB
+	Logon ID:		0x2A16E8F
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{44f9a996-a633-1a9f-9864-2c796e05d9aa}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		57598
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+win.eventdata.subjectUserSid: S-1-0-0
+win.eventdata.subjectLogonId: 0x0
+win.eventdata.targetUserSid: S-1-5-18
+win.eventdata.targetUserName: WIN-68MNT0FEABB$
+win.eventdata.targetDomainName: LEARN.LAB
+win.eventdata.targetLogonId: 0x2a16e8f
+win.eventdata.logonType: 3
+win.eventdata.logonProcessName: Kerberos
+win.eventdata.authenticationPackageName: Kerberos
+win.eventdata.logonGuid: {44f9a996-a633-1a9f-9864-2c796e05d9aa}
+win.eventdata.keyLength: 0
+win.eventdata.processId: 0x0
+win.eventdata.ipAddress: ::1
+win.eventdata.ipPort: 57598
+win.eventdata.impersonationLevel: %%1833
+win.eventdata.virtualAccount: %%1843
+win.eventdata.targetLinkedLogonId: 0x0
+win.eventdata.elevatedToken: %%1842
+
+** Alert 1791054940.1943121: - windows,windows_security,pci_dss_10.2.5,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Oct 03 19:15:40 (WIndows) any->EventChannel
+Rule: 60137 (level 3) -> 'Windows User Logoff'
+{"win":{"system":{"providerName":"Microsoft-Windows-Security-Auditing","providerGuid":"{54849625-5478-4994-a5ba-3e3b0328c30d}","eventID":"4634","version":"0","level":"0","task":"12545","opcode":"0","keywords":"0x8020000000000000","systemTime":"2026-09-24T10:47:52.0089575Z","eventRecordID":"10306","processID":"748","threadID":"812","channel":"Security","computer":"WIN-68MNT0FEABB.learn.lab","severityValue":"AUDIT_SUCCESS","message":"\"An account was logged off.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWIN-68MNT0FEABB$\r\n\tAccount Domain:\t\tLEARN\r\n\tLogon ID:\t\t0x2A16E8F\r\n\r\nLogon Type:\t\t\t3\r\n\r\nThis event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.\""},"eventdata":{"targetUserSid":"S-1-5-18","targetUserName":"WIN-68MNT0FEABB$","targetDomainName":"LEARN","targetLogonId":"0x2a16e8f","logonType":"3"}}}
+win.system.providerName: Microsoft-Windows-Security-Auditing
+win.system.providerGuid: {54849625-5478-4994-a5ba-3e3b0328c30d}
+win.system.eventID: 4634
+win.system.version: 0
+win.system.level: 0
+win.system.task: 12545
+win.system.opcode: 0
+win.system.keywords: 0x8020000000000000
+win.system.systemTime: 2026-09-24T10:47:52.0089575Z
+win.system.eventRecordID: 10306
+win.system.processID: 748
+win.system.threadID: 812
+win.system.channel: Security
+win.system.computer: WIN-68MNT0FEABB.learn.lab
+win.system.severityValue: AUDIT_SUCCESS
+win.system.message: "An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-68MNT0FEABB$
+	Account Domain:		LEARN
+	Logon ID:		0x2A16E8F
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer."
+win.eventdata.targetUserSid: S-1-5-18
+win.eventdata.targetUserName: WIN-68MNT0FEABB$
+win.eventdata.targetDomainName: LEARN
+win.eventdata.targetLogonId: 0x2a16e8f
+win.eventdata.logonType: 3
+
