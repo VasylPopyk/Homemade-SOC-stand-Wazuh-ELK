@@ -112,6 +112,9 @@ docker exec single-node-wazuh.manager-1 tail -n 500 /var/ossec/logs/alerts/alert
 
 ---
 
+### Скріншоти стенду
+![Wazuh Dashboard Agents](screenshots/agents.png)
+
 <a id="en"></a>
 
 # 🇬🇧 English version
@@ -205,3 +208,5 @@ To run the script automatically once per day:
 ```bash
    0 0 * * * /bin/bash /absolute_path_to_project/soc-wazuh/scripts/rotate_logs.sh >/dev/null 2>&1
 ```
+### Screenshots
+![Wazuh Dashboard Agents](screenshots/agents.png)
